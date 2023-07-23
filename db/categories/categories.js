@@ -19,9 +19,9 @@ export const categories = [
   },
   {
     id: 3,
-    name: 'Libraries',
-    path: 'libraries',
+    name: 'React Projects',
+    path: 'React',
     image: '/categories/libraries.jpg',
-    description: 'projects using libraries',
+    description: 'projects using React (and more)',
   },
 ]
