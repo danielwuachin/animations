@@ -22,7 +22,7 @@ const Category = ({ params }) => {
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {categoryProjects.map((project, index) => (
           <div key={index} className="max-w-sm rounded overflow-hidden shadow-lg">
-            <Link href={project.path}>
+            <Link href={categoryPath + '/' + project.path}>
                 <Image
                   src={project.image}
                   alt={project.name}
